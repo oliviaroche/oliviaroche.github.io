@@ -1,0 +1,129 @@
+@import url(https://fonts.google.com/specimen/Roboto+Condensed);
+@import url(https://fonts.google.com/specimen/Roboto);
+
+body {
+  background-color: #c1;
+  font-family: roboto;
+  font-size: 20px;
+}
+
+.navbar{
+  z-index: 1;
+  position:fixed; 
+  width:100%; 
+  background:rgba(0,0,0,0.4);
+}
+
+.navbar, .navbar-default .navbar-collapse {
+  border-color: rgba(0,0,0,0.4);
+}
+
+.navbar-default .navbar-brand,
+.navbar-default .navbar-nav>li>a {
+  color: #fff;
+}
+
+.navbar-default .navbar-brand:focus,
+.navbar-default .navbar-brand:hover,
+.navbar-default .navbar-nav>li>a:focus,
+.navbar-default .navbar-nav>li>a:hover {
+  color: #ccc;
+}
+
+h1 {
+  font-family: Roboto Condensed;
+  font-size: 100px;
+  color: #fff;
+}
+
+h2 {
+  font-family: Roboto Condensed;
+  font-size: 60px;
+  color: #fff;
+}
+
+.background-image {
+  background-color: #fff;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position:center;
+  background-attachment: fixed;
+}
+
+.content {
+  margin-top: 20px;
+  margin-bottom: 20px;
+  background-color: rgba(0,0,0,0.5);
+  color: white;  
+}
+
+#hero {
+  background-image: url(https://s4.postimg.org/3rawxu70d/ww8jbak7bo_andrew_illarionov.jpg);
+  padding: 250px 0;
+  min-height: 100%;
+}
+
+h3 {
+  font-family: Palatino;
+  font-size: 30px;
+  font-color: #000000;
+  padding-left: 20px;
+}
+
+.link-custom {
+  color: #fff;
+}
+
+#about {
+  background-image: url(https://41.media.tumblr.com/eb2382a5a4c996cfdab27bc0d1eb51ff/tumblr_nt5umxS1FY1ud7rr3o1_1280.jpg);
+  text-align: justify;
+}
+
+#about-img {
+  height: 400px;
+  margin: 0 auto;
+}
+
+#skills {
+  background-image: url(https://s14.postimg.org/3wpuquppt/mwgwwqzrflg_alessio_lin.jpg);
+  text-align:justify;
+}
+
+#portfolio {
+  background-image: url(https://s11.postimg.org/6obhhuhxf/ov0o74n5vzk_oscar_soderlund.jpg);
+}
+
+.portfolio-item {
+  display: block;
+  margin: 0 20px 20px;
+  font-size: 20px;
+}
+.portfolio-image {
+  height: 160px;
+  background-size:cover;
+}
+
+#Muhammad-Ali-tribute {
+  background-image: url(https://s11.postimg.org/ghwantnir/Muhammad_Ali_tribute.jpg);
+}
+
+#Coming-Soon {
+  background-image: url(https://s15.postimg.org/5576bnfiz/coming_soon.jpg);
+}
+
+#contact {
+  background-image: url(https://s16.postimg.org/6jiiotvb9/a2nru2wxa2o_luke_chesser.jpg);
+}
+
+.btn-custom {
+  text-align: center;
+  background-color: #fff;
+  padding: 12px;
+  font-size: 16px;
+  margin-bottom: 6px;
+}
+
+.btn-custom:hover {
+  background-color: #222;
+  color: #fff;
+}

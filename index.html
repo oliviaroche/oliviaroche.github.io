@@ -1,0 +1,170 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Olivia Roche - Personal Portfolio Website</title>  <!--Include external dependencies here (bootstrap, jquery)-->
+	<link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.3.7/css/bootstrap.min.css">
+	<link rel="stylesheet" type="text/css" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+	<script src="https://code.jquery.com/jquery-3.1.1.min.js"></script>
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+
+	<!--Include links to your stylesheets and scripts here, or at the bottom of your body-->
+	<link rel="stylesheet" type="text/css" href="./styles.css">
+</head>
+<body>
+	<nav class="navbar navbar-default navbar-fixed-top">
+		<div class="container">
+			<div class="navbar-header">
+				<button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
+					<span class="sr-only">Toggle navigation</span>
+					<span class="icon-bar"></span>
+					<span class="icon-bar"></span>
+					<span class="icon-bar"></span>
+				</button>
+				<a class="navbar-brand" href="#hero">Olivia Roche</a>
+			</div>
+			<div id="navbar" class="navbar-collapse collapse">
+				<ul class="nav navbar-nav navbar-right">
+					<li><a href="#hero">Home</a></li>
+					<li><a href="#about">About</a></li>
+					<li><a href="#skills">Skills & Frameworks</a></li>
+					<li><a href="#portfolio">Portfolio</a></li>
+					<li><a href="#contact">Contact</a></li>
+				</ul>
+			</div>
+		</div>
+	</nav>
+	<div class="background-image" id="hero">
+		<div class="container">
+			<div class="row">
+				<div class="row">
+					<h1 class="text-center">Olivia Roche</h1>
+				</div>
+				<div class="row">
+					<h2 class="text-center" id="my-description">Bringing Cool Ideas To Life</h2>
+					<hr class="section divider">
+				</div>
+				<div class="col-sm-12">
+					<div class="col-xs-12 col-sm-6 col-lg-3">
+						<a class="btn btn-block btn-custom" href="#" role="button"><i class="fa fa-twitter" aria-hidden="true"></i> Twitter</a>
+					</div>
+					<div class="col-xs-12 col-sm-6 col-lg-3">
+						<a class="btn btn-block btn-custom" href="#" role="button"><i class="fa fa-linkedin" aria-hidden="true"></i> LinkedIn</a>
+					</div>
+					<div class="col-xs-12 col-sm-6 col-lg-3">
+						<a class="btn btn-block btn-custom" href="#" role="button"><i class="fa fa-github" aria-hidden="true"></i> Github</a>
+					</div>
+					<div class="col-xs-12 col-sm-6 col-lg-3">
+						<a class="btn btn-block btn-custom" href="#" role="button"><i class="fa fa-free-code-camp" aria-hidden="true"></i> FreeCodeCamp</a>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+
+	<div class="background-image" id="about">
+		<div class="container">
+			<div class="row content">
+				<h3>About</h3>
+				<hr class="section divider">
+				<div class="col-sm-12 col-md-8">
+					<p>Hello there, My name is Olivia Roche and welcome to my personal portfolio! I am currently working on becoming a self taught developer and using these skills to get a job within the IT industry. This page will be used to display updates on my skills and any projects that I have made over the next few months.</p>
+					
+					<p>I've always been intersted in both science and technology, learning how things work and applying that knowledge to create new ideas. I graduated from Waterford Institute of Technology in October 2015 with a BSc in Pharmaceutical Science. This course lasted 3 years with one semester dedicated to a final year project. For anyone interested, this project can be seen on my LinkedIn page. This course also covered modules in many different areas of Chemistry, Physics and Maths which I believe offers me a unique perspective on design and development concepts. More information on my qualification can be found <a class="link-custom" src="https://www.wit.ie/courses/type/science/department_of_chemical_life_sciences/bsc_in_pharmaceutical_science">here.</a></p>
+					
+					<p>Ouside of science and technology, my hobbies include training martial arts, playing videos. Martial arts is a huge part of my life and I have been training in many different diciplines since a very young age. A lot of my idols include martial artists such as Bruce Lee, Muhammad Ali and Conor McGregor. A lot of my down time is spent playing video games and like many others, where my interest for technology comes from.</p>
+				</div>
+				<div class="col-sm-12 col-md-4">
+					<img class="img-responsive img-circle center" align="middle" id="about-img" src="https://scontent.xx.fbcdn.net/t31.0-8/10256405_865832433443722_6511939652012846191_o.jpg" alt="A picture of me">
+				</div>
+			</div>
+		</div>
+	</div>
+
+	<div class="background-image" id="skills">
+		<div class="container">
+			<div class="row content">
+				<h3>Programming Skills & Frameworks</h3>
+				<hr class="section divider">
+				<div class="col-sm-12 col-md-6">
+					<h4>Programming Languages</h4>
+					<ul>
+						<li>HTML</li>
+						<li>CSS</li>
+						<li>JavaScript</li>
+					</ul>
+				</div>
+				<div class="col-sm-12 col-md-6">
+					<h4>Frameworks</h4>
+					<ul>
+						<li>jQuery</li>
+						<li>Bootstrap</li>
+					</ul>
+				</div>
+			</div>
+		</div>
+	</div>
+
+	<div class="background-image" id="portfolio">
+		<div class="container">
+			<div class="row content">
+				<h3>Portfolio</h3>
+				<hr class="section divider">
+				<div class="col-xs-12">
+					<div class="col-md-4 col-sm-6" align="center">
+						<a class="content portfolio-item" href="https://codepen.io/oliviaroche/pen/VmWMpb">
+							<div class="portfolio-image" id="Muhammad-Ali-tribute"></div>
+							Muhammad Ali Tribute Page
+						</a>
+					</div>
+					<div class="col-md-4 col-sm-6" align="center">
+						<a class="content portfolio-item" href="#">
+							<div class="portfolio-image" id="Coming-Soon"></div>
+							Coming Soon
+						</a>
+					</div>
+					<div class="col-md-4 col-sm-6" align="center">
+						<a class="content portfolio-item" href="#">
+							<div class="portfolio-image" id="Coming-Soon"></div>
+							Coming Soon
+						</a>
+					</div>
+					<div class="col-md-4 col-sm-6" align="center">
+						<a class="content portfolio-item" href="#">
+							<div class="portfolio-image" id="Coming-Soon"></div>
+							Coming Soon
+						</a>
+					</div>
+					<div class="col-md-4 col-sm-6" align="center">
+						<a class="content portfolio-item" href="#">
+							<div class="portfolio-image" id="Coming-Soon"></div>
+							Coming Soon
+						</a>
+					</div>
+					<div class="col-md-4 col-sm-6" align="center">
+						<a class="content portfolio-item" href="#">
+							<div class="portfolio-image" id="Coming-Soon"></div>
+							Coming Soon
+						</a>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+
+	<div class="background-image" id="contact">
+		<div class="container">
+			<div class="row content">
+				<h3>Contact</h3>
+				<hr class="section divider">
+				<div class="col-md-4 col-sm-6 col-md-offset-4 col-sm-offset-3">
+					<a class="btn btn-block btn-custom" href="https://twitter.com/GingaNinja93" role="button"><i class="fa fa-twitter" aria-hidden="true"></i> Twitter</a>
+					<a class="btn btn-block btn-custom" href="https://twitter.com/GingaNinja93" role="button"><i class="fa fa-linkedin" aria-hidden="true"></i> LinkedIn</a>
+					<a class="btn btn-block btn-custom" href="https://github.com/oliviaroche" role="button"><i class="fa fa-github" aria-hidden="true"></i> Github</a>
+					<a class="btn btn-block btn-custom" href="https://www.freecodecamp.com/oliviaroche" role="button"><i class="fa fa-free-code-camp" aria-hidden="true"></i> Free Code Camp</a>
+					<a class="btn btn-block btn-custom" href="mailto:oliviaroche221@gmail.com?Subject=Hello" role="button"><i class="fa fa-at" aria-hidden="true"></i> oliviaroche221@gmail.com</a>
+				</div>
+			</div>
+		</div>
+	</div>
+</body>
+</html>
